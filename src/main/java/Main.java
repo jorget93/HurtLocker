@@ -49,25 +49,12 @@ public class Main {
         newString += "Errors           seen: " + counts[9] + " times";
 
         return newString;
-
     }
 
     public static void main(String[] args) throws Exception{
-
 
         String output = (new Main()).countOccurrence();
         System.out.println(output);
 
     }
-
-
-
-
-//    public static void main(String[] args) throws Exception{
-//
-//
-//        String output = (new Main()).readRawDataToString();
-//        System.out.println(output);
-//
-//    }
 }
