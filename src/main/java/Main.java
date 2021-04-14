@@ -29,22 +29,18 @@ public class Main {
             j = 1;
         }
         newString = "Name:    milk    seen: " + counts[0] + " times\n";
-        newString += "_____________    _____________\n";
-        newString += "_____________    _____________\n";
+        newString += "=============    =============\n";
         newString += "Price:   3.23    seen: " + counts[1] + " times\n";
         newString += "_____________    _____________\n";
         newString += "Price:   1.23    seen: " + counts[2] + " times\n\n";
         newString += "Name:   bread    seen: " + counts[3] + " times\n";
-        newString += "_____________    _____________\n";
-        newString += "_____________    _____________\n";
+        newString += "=============    =============\n";
         newString += "Price:   1.23    seen: " + counts[4] + " times\n\n";
         newString += "Name: cookies    seen: " + counts[5] + " times\n";
-        newString += "_____________    _____________\n";
-        newString += "_____________    _____________\n";
+        newString += "=============    =============\n";
         newString += "Price:   2.25    seen: " + counts[6] + " times\n\n";
         newString += "Name:  apples    seen: " + counts[7] + " times\n";
-        newString += "_____________    _____________\n";
-        newString += "_____________    _____________\n";
+        newString += "=============    =============\n";
         newString += "Price:   0.25    seen: " + counts[8] + " times\n\n";
         newString += "Errors           seen: " + counts[9] + " times";
 
