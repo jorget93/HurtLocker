@@ -9,7 +9,6 @@ public class Parser {
     Integer[] counts = {0,0,0,0,0,0,0,0,0,0};
 
     public String countOccurrence() throws Exception {
-        String newString = "";
         Integer j = 0;
         for(int i = 0; i < list.length; i++) {
             Pattern pattern = Pattern.compile(list[i], Pattern.CASE_INSENSITIVE);
@@ -20,7 +19,7 @@ public class Parser {
             counts[i] = j;
             j = 1;
         }
-        newString = "Name:    milk    seen: " + counts[0] + " times\n";
+        String newString = "Name:    milk    seen: " + counts[0] + " times\n";
         newString += "=============    =============\n";
         newString += "Price:   3.23    seen: " + counts[1] + " times\n";
         newString += "_____________    _____________\n";
